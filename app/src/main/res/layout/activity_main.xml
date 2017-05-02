@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:id="@+id/activity_main"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context="com.example.munow.stickershop.MainActivity">
+android:background="@drawable/bg8">
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/txtTitle"
+    android:textColor="@android:color/holo_orange_dark"
+    android:id="@+id/txtTitle"
+    android:textSize="@dimen/h1"
+    android:textStyle="normal|bold|italic"
+    android:layout_centerHorizontal="true" />
+
+<ListView
+    android:id="@+id/livTraffic"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_above="@+id/m"
+    android:layout_below="@+id/txtTitle"
+    android:layout_margin="@dimen/my_margin"
+    android:background="#c6ffffff" />
+
+<LinearLayout
+    android:id="@+id/m"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:alwaysDrawnWithCache="false"
+    android:animateLayoutChanges="false"
+    android:animationCache="false"
+    android:baselineAligned="false">
+
+
+    <Button
+        android:id="@+id/btnMoreInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_weight="1"
+        android:onClick="onClickMoreInfo"
+        android:text="@string/MoreInfo" />
+
+</LinearLayout>
+
+</RelativeLayout>

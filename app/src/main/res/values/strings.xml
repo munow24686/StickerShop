@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">StickerShop</string>
+    <string name = "txtTitle">Sticker</string>
+    <string name="MoreInfo">ข้อมูลเพิ่มเติม</string>
+    <string name="Buy">ซื้อ</string>
+    <string name="back">back</string>
+</resources>
