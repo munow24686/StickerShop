@@ -2,14 +2,14 @@
 <resources>
 
     <string-array name="title">
-        <item>หัวข้อที่ 1</item>
-        <item>หัวข้อที่ 2</item>
-        <item>หัวข้อที่ 3</item>
-        <item>หัวข้อที่ 4</item>
-        <item>หัวข้อที่ 5</item>
-        <item>หัวข้อที่ 6</item>
-        <item>หัวข้อที่ 7</item>
-        <item>หัวข้อที่ 8</item>
+        <item>The Girl and Her Friends</item>
+        <item>HelloKitty</item>
+        <item>My Melody</item>
+        <item>Pandadog</item>
+        <item>Boobib cute</item>
+        <item>Kinoko Libito</item>
+        <item>Pubper</item>
+        <item>Smile Brush 2</item>
 
 
     </string-array>

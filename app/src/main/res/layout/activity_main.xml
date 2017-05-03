@@ -2,15 +2,11 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-android:id="@+id/activity_main"
-android:layout_width="match_parent"
-android:layout_height="match_parent"
-tools:context="com.example.munow.stickershop.MainActivity"><![CDATA[
-android:background="@drawable/bg8">
-
-
-
-    ]]>
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg8"
+tools:context="com.example.munow.stickershop.MainActivity">
 
     <ImageView
         android:id="@+id/imageView2"
@@ -47,6 +43,9 @@ android:background="@drawable/bg8">
     android:animateLayoutChanges="false"
     android:animationCache="false"
     android:baselineAligned="false">
+
+
+
 
 </LinearLayout>
 
