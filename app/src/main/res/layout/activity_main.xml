@@ -48,16 +48,6 @@ android:background="@drawable/bg8">
     android:animationCache="false"
     android:baselineAligned="false">
 
-
-    <Button
-        android:id="@+id/btnMoreInfo"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_weight="1"
-        android:onClick="onClickMoreInfo"
-        android:text="@string/MoreInfo" />
-
 </LinearLayout>
 
 </RelativeLayout>
